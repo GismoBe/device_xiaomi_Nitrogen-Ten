@@ -518,6 +518,9 @@
          * The device must be provisioned with HDCP keys (for protected content).
     -->
     <bool name="config_enableWifiDisplay">true</bool>
+    
+    <!-- Temporary 5GHz Wifi hotspot fix until we find a way to toggle it on properly -->
+    <bool translatable="false" name="config_wifi_convert_apband_5ghz_to_any">true</bool>
 
     <!-- Should the pinner service pin the Home application? -->
     <bool name="config_pinnerHomeApp">true</bool>
