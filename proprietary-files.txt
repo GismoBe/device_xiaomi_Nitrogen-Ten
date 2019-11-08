@@ -1042,7 +1042,6 @@ vendor/lib64/libApeSwDec.so|ef2dd074b2f59ef5f7c5095251f6743827ded20c
 vendor/lib64/libFlacSwDec.so|fe401c04a3d794e430c2d85a4f041500036e2b17
 -vendor/lib64/libgpustats.so|b7f9e1ee3f0d86e87d96db55404f3507db8cac6f
 vendor/lib64/libI420colorconvert.so|528fbbd8908ed1fbb64277ec614ba8f7ce1dda6e
-vendor/lib64/libmm-color-convertor.so
 vendor/lib64/libmmosal_proprietary.so
 vendor/lib64/libmmsw_detail_enhancement.so
 vendor/lib64/libmmsw_math.so
