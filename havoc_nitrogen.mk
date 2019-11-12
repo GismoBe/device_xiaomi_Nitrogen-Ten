@@ -29,14 +29,13 @@ $(call inherit-product, device/xiaomi/nitrogen/device.mk)
 $(call inherit-product, vendor/MiuiCamera/config.mk)
 
 # Inherit some common AOSiP stuff.
-$(call inherit-product, vendor/aosp/config/common_full_phone.mk)
+$(call inherit-product, vendor/havoc/config/common_full_phone.mk)
 
-# Inherit some common Evolution X stuff.
+# Inherit some common Havoc stuff.
 CUSTOM_BUILD_TYPE := UNOFFICIAL
 TARGET_BOOT_ANIMATION_RES := 1080
-TARGET_GAPPS_ARCH := arm64
 
-PRODUCT_NAME := aosp_nitrogen
+PRODUCT_NAME := havoc_nitrogen
 PRODUCT_BRAND := Xiaomi
 PRODUCT_DEVICE := nitrogen
 PRODUCT_MANUFACTURER := Xiaomi
